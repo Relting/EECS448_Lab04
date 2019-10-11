@@ -1,0 +1,2 @@
+Any functions not learned from the lab page were found at w3schools.com. 
+The ValidateEmail library function was imported from https://www.w3resource.com/javascript/form/email-validation.php .
