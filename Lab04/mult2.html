@@ -1,0 +1,38 @@
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+</head>
+
+<p> Here is a multiplication table for numbers 1-100: </p>
+
+<table>
+<?php
+
+// first header line of the table
+echo "<tr>";
+echo "<th> &nbsp; </th>";
+for( $i=1; $i<=100; $i++ ){
+echo "<th> $i </th>";
+}
+echo "</tr>";
+
+// The rest of the table
+for($i=1; $i<=100; $i++){
+echo "<tr>";
+echo "<th> $i </th>";
+for($n=1; $n<=100; $n++){
+echo "<th>";
+echo $i * $n;
+echo " </th>";
+}
+echo "</tr>";
+}
+
+?>
+</table>
+</html>

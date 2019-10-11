@@ -1,0 +1,31 @@
+<html>
+	<head>
+	</head>
+<body>
+
+
+When two black cats are bred together, what color distribution could the kittens be?
+
+<form action="">
+  <input type="radio" name="q1" value="FALSE"> Females 100% black, males 25% black / 25% gray<br>
+  <input type="radio" name="q1" value="FALSE"> Females 100% black, males 100% gray.<br>
+  <input type="radio" name="q1" value="TRUE"> 75% black, 25% gray.<br>
+  <input type="radio" name="q1" value="FALSE"> 50% black, 25% brown, 25% gray.<br> 
+</form>
+
+
+The calico coat color gene is:
+
+<form action="">
+  <input type="radio" name="q2" value="TRUE"> X-linked.<br>
+  <input type="radio" name="q2" value="FALSE"> Y-lom-<br>
+  <input type="radio" name="q2" value="FALSE"> 75% black, 25% gray.<br>
+  <input type="radio" name="q2" value="FALSE"> 50% black, 25% brown, 25% gray.<br>
+</form>
+
+
+
+
+
+</body>
+</html>

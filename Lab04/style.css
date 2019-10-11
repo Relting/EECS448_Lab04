@@ -1,0 +1,19 @@
+h1 {
+    font-size: 20;
+    font-family: arial;
+}
+
+body
+{
+    background-color: rgb(219, 249, 229);
+}
+
+a:hover
+{
+    color: blue;
+}
+
+table th, table td
+{
+    border: solid black 1px;
+}

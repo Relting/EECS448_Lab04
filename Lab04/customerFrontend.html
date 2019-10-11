@@ -1,0 +1,43 @@
+<html>
+	<head>
+	<script type="text/javascript" src="formChecker.js"> </script>
+        <link href="style.css" type="text/css" rel="stylesheet"></link>
+	</head>
+
+
+
+
+<form action="customerBackend.php" onsubmit="return Validate();" method = "post">
+
+<h1>How many of each item would you like? </h1>
+
+Cat toy, $3: 
+<input type="text" name="toys" id="toys" placeholder="each"> <br>
+Cat treats, $5: 
+<input type="text" name="treats" id="treats" placeholder="per package"> <br>
+Cat tree, $50: 
+<input type="text" name="trees" id="trees" placeholder="each"> <br>
+
+
+<h1>Please sign in.</h1>
+
+<br>
+<input type="text" name="username" id="username" placeholder="name@domain.com">
+<br>
+<input type="password" name="password" id="password" placeholder="Password here...">
+<br><br>
+
+<h1> Select a shipping option: </h1>
+
+<input type="radio" name="shipping" value="0"> Free 7 day<br>
+<input type="radio" name="shipping" value="50"> $50.00 overnight<br>
+<input type="radio" name="shipping" value="5"> $5.00 3 day <br>
+
+
+<br>
+<button type="button" onclick="reset()">Reset</button>
+<br>
+<input type="submit">
+</form>
+
+</html>
